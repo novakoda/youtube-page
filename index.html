@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/body.css">
   <meta charset="utf-8">
   <title>YouTube</title>
 </head>
 
 <body>
   <nav id="navbar">
+    <span id="lines">≡</span>
+
     <a href="http://www.youtube.com" target="_blank">
       <h1 id="home">You<span class="red-text">Tube</span></h1>
     </a>
@@ -18,18 +21,27 @@
       <li class="nav-item search">
         <button type="button" name="button" id="search-button">Search</button>
       </li>
-      <li class="nav-item upload">
-        <button type="button" name="button">Upload</button>
-      </li>
       <li class="nav-item user">
         <div id="letter">
           N
         </div>
       </li>
+      <li class="nav-item upload">
+        <button type="button" name="button" id="symbol">⊞</button>
+      </li>
     </ul>
   </nav>
-  <section id="body-cont">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </section>
+  <div id="body-cont">
+    <main>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+    <section>
+      <ul id="recommended">
+        <li class="video">
+
+        </li>
+      </ul>
+    <section>
+  </div>
 </body>
 </html>
