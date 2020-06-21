@@ -5,8 +5,26 @@ body {
   margin: 0;
 }
 
-#body-cont {
-  width: 500em;
-  margin: 0 5em 5em 5em;
+#page {
+  margin: 0 2em 5em 2em;
   padding: 5em 0 0 0;
+}
+
+#info {
+  width: 60em;
+}
+
+#author {
+  display: inline;
+  float: left;
+}
+
+#subbtn {
+  float: right;
+}
+
+#desc {
+  display: inline-block;
+  width: 40em;
+  margin: -12px 0 0 10px;
 }
