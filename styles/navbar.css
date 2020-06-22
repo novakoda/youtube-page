@@ -1,6 +1,5 @@
 a {
   text-decoration: none;
-  color: black;
 }
 
 ul {
@@ -72,7 +71,6 @@ input {
 }
 
 .avi {
-  background-color: #A0F;
   font-weight: 900;
   text-align: center;
   color: white;
